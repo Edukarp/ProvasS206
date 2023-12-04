@@ -60,4 +60,4 @@ mvn test -Dtest=storeRunner
 "...\aula_inatel\target\karate-reports"
 
 2. Agora basta executar o arquivo WEB chamado:
-"trabalho.store.store"
+"testes.prova.gorest"
