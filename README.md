@@ -35,10 +35,10 @@ npm i --save-dev cypress-mochawesome-reporter
 3. O arquivo contendo o relatório estará em: 
 "..\testes\cypress\reports\html\index.html"
 
-### Para o Karate:
+## Para o Karate:
 
-## Para Execução
-1. Abra o terminal no diretório desejado e digite o comando:
+### Para Execução
+1. Abra o terminal no diretório desejado e digitar o comando:
 
 ```
 mvn archetype:generate \
@@ -49,15 +49,15 @@ mvn archetype:generate \
 -DartifactId=aula_inatel
 ```
 
-2. Para rodar o teste digite o seguinte comando no diretorio 'aula_inatel'
+2. Para rodar o teste digite o seguinte comando no diretorio 'aula_inatel':
 
 ```
 mvn test -Dtest=storeRunner
 ```
 
-## Para Vizualizar o Relatório
+### Para Vizualizar o Relatório
 1. O arquivo contendo o relatório estará em: 
 "...\aula_inatel\target\karate-reports"
 
-2. Agora basta execurat o arquivo WEB chamado:
+2. Agora basta executar o arquivo WEB chamado:
 "trabalho.store.store"
