@@ -52,7 +52,7 @@ mvn archetype:generate \
 2. Para rodar o teste digite o seguinte comando no diretorio 'aula_inatel':
 
 ```
-mvn test -Dtest=storeRunner
+mvn test -Dtest=GorestRunner
 ```
 
 ### Para Vizualizar o Relatório
